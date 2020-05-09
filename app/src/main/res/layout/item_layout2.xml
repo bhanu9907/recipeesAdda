@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:id="@+id/linearfrag2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:src="@drawable/malaiallo"
+        android:id="@+id/img44"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aamras ke Malai Aloo"
+            android:textSize="18dp"
+            android:gravity="left"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:id="@+id/txt22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="This spicy vegan potato curry is full on with flavour and easy...."
+                android:gravity="left"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:maxLines="2"
+                android:id="@+id/des" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:weightSum="10">
+                <RatingBar
+                    android:id="@+id/rating"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+
+                    android:padding="5dp"
+                    android:layout_gravity="bottom"
+                    android:rating="3.5"
+                    android:stepSize="0.5" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Rs 60.0"
+                 android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="bottom|right"
+                    android:textColor="#3A1515"
+                    android:textSize="16dp"
+                    android:maxLines="2"
+                    android:id="@+id/price1" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

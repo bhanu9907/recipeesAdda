@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_add_shopping"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Selling Recipes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Adress/Bank Details" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Upload Documents" />
+        <item
+            android:id="@+id/nav_det"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Account Details" />
+        <item
+            android:id="@+id/nav_rec"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Submit Recipe" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Rate the App" />
+        <item
+            android:id="@+id/nav_inv"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Invite Friends" />
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Help" />
+    </group>
+
+</menu>
